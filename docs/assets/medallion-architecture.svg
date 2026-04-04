@@ -1,0 +1,56 @@
+<svg width="1100" height="340" viewBox="0 0 1100 340" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#0F172A" flood-opacity="0.18"/>
+    </filter>
+    <marker id="arrowHead" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+    <style>
+      .card-title { font: 700 28px 'Segoe UI', Arial, sans-serif; letter-spacing: 1px; fill: #1F2937; }
+      .card-body { font: 500 19px 'Segoe UI', Arial, sans-serif; fill: #374151; }
+      .card-body-small { font: 500 18px 'Segoe UI', Arial, sans-serif; fill: #374151; }
+      .icon-stroke { stroke: #22384A; stroke-width: 6; }
+      .link { stroke: #334155; stroke-width: 4; stroke-dasharray: 3 12; stroke-linecap: round; }
+    </style>
+  </defs>
+
+  <rect x="40" y="42" width="250" height="250" rx="18" fill="#E9D2C4" stroke="#22384A" stroke-width="3" filter="url(#cardShadow)"/>
+  <rect x="425" y="42" width="250" height="250" rx="18" fill="#F4F4F5" stroke="#22384A" stroke-width="3" filter="url(#cardShadow)"/>
+  <rect x="810" y="42" width="250" height="250" rx="18" fill="#F7D66B" stroke="#22384A" stroke-width="3" filter="url(#cardShadow)"/>
+
+  <rect x="40" y="42" width="250" height="18" rx="18" fill="#FF6B35"/>
+  <rect x="425" y="42" width="250" height="18" rx="18" fill="#D1D5DB"/>
+  <rect x="810" y="42" width="250" height="18" rx="18" fill="#FACC15"/>
+
+  <path class="link" d="M290 167 H405" marker-end="url(#arrowHead)"/>
+  <path class="link" d="M675 167 H790" marker-end="url(#arrowHead)"/>
+
+  <text x="165" y="105" text-anchor="middle" class="card-title">BRONZE</text>
+  <text x="550" y="105" text-anchor="middle" class="card-title">SILVER</text>
+  <text x="935" y="105" text-anchor="middle" class="card-title">GOLD</text>
+
+  <ellipse cx="165" cy="152" rx="55" ry="18" fill="none" class="icon-stroke"/>
+  <path d="M110 152V205C110 215 135 223 165 223C195 223 220 215 220 205V152" fill="none" class="icon-stroke"/>
+  <path d="M110 178C110 188 135 196 165 196C195 196 220 188 220 178" fill="none" class="icon-stroke"/>
+  <path d="M110 205C110 215 135 223 165 223C195 223 220 215 220 205" fill="none" class="icon-stroke"/>
+
+  <ellipse cx="550" cy="152" rx="55" ry="18" fill="none" class="icon-stroke"/>
+  <path d="M495 152V205C495 215 520 223 550 223C580 223 605 215 605 205V152" fill="none" class="icon-stroke"/>
+  <path d="M495 178C495 188 520 196 550 196C580 196 605 188 605 178" fill="none" class="icon-stroke"/>
+  <path d="M495 205C495 215 520 223 550 223C580 223 605 215 605 205" fill="none" class="icon-stroke"/>
+
+  <ellipse cx="935" cy="152" rx="55" ry="18" fill="none" class="icon-stroke"/>
+  <path d="M880 152V205C880 215 905 223 935 223C965 223 990 215 990 205V152" fill="none" class="icon-stroke"/>
+  <path d="M880 178C880 188 905 196 935 196C965 196 990 188 990 178" fill="none" class="icon-stroke"/>
+  <path d="M880 205C880 215 905 223 935 223C965 223 990 215 990 205" fill="none" class="icon-stroke"/>
+
+  <text x="165" y="258" text-anchor="middle" class="card-body">Raw ingestion</text>
+  <text x="165" y="284" text-anchor="middle" class="card-body">and history</text>
+
+  <text x="550" y="258" text-anchor="middle" class="card-body-small">Filtered, cleaned,</text>
+  <text x="550" y="284" text-anchor="middle" class="card-body-small">augmented</text>
+
+  <text x="935" y="258" text-anchor="middle" class="card-body-small">Business-level</text>
+  <text x="935" y="284" text-anchor="middle" class="card-body-small">aggregates</text>
+</svg>
